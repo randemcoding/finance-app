@@ -1,0 +1,186 @@
+
+body{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:98vw;
+    height:98vh;
+    letter-spacing: .1rem;
+    font-size: 24px;
+    font-weight: 100;
+    background-color: rgb(71, 69, 69);
+    font-family: 'Teko', sans-serif;
+}
+#header{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:0px;
+    top: 0px;
+    background-color: rgb(53, 51, 51);
+    color: rgb(212, 150, 108);
+    width: 100vw;
+    height: 15vh;
+    font-size:10vw;
+    font-size: 10vh;
+    font-family: 'Teko', sans-serif;
+    
+  }
+  #nav-bar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left:0px;
+    top: 15vh;
+    background-color: rgb(212, 150, 108);
+    color: rgb(53, 51, 51);
+    width: 100vw;
+    height: 5vh;
+    font-size:1.3vw;
+    font-size: 1.3vh;
+
+  }
+#main-container{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(43, 42, 44);
+    width:100vw;
+    height:50vh;
+    position: fixed;
+    top:20vh;
+    left:0px;
+    height:80vh;
+}
+  #footer-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:10vh;
+    background-color: rgb(53, 51, 51);
+    color: rgb(212, 150, 108);
+    text-align:center;
+    position:fixed;
+    bottom: 0px;
+    left:0px;
+    z-index:0;
+    font-family: 'Teko', sans-serif;
+    font-size:1.3vw;
+    font-size: 1.3vh;
+}
+.nav-bar-text {
+    background-color: rgb(53, 51, 51);
+    color: rgb(212, 150, 108);
+    margin: 10px;
+    padding:5px;
+    width:50%;
+    text-decoration:none;
+    border-radius: 5px;
+    text-align: center;
+}
+#tabs-div{
+    display:inline-flex;
+    width:100vw;
+    justify-content: center;
+}
+.button {
+    width: 34%;
+    height:8vh;
+    background-color: rgb(53, 51, 51);
+    color: rgb(212, 150, 108);
+    margin-left:0px;
+    font-family: 'Teko', sans-serif;
+    font-size:larger;
+}
+.button-selected {
+    width: 33%;
+    height:8vh;
+    color: rgb(212, 150, 108);
+    margin-left:5px;
+    background-color: rgb(43, 42, 44);
+    border: 0;
+    font-family: 'Teko', sans-serif;
+    font-size:larger;
+
+}
+#container-header{
+    background-color: rgb(43, 42, 44);
+    color: rgb(212, 150, 108);
+    text-align:center;
+  transition: opacity 1.5 secs ease-in;
+  text-decoration: underline;
+  line-height: .5;
+}
+#inner-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 2.5s ease-in;
+    height: 50vh;
+  }
+  #add-button{
+    width:50px;
+    height:50px;
+    background-color: rgb(43, 42, 44);
+    color: rgb(212, 150, 108);
+    font-size:x-large;
+    margin-bottom: 10px;
+  }
+  .appended-text{
+    line-height: .1;
+    color: rgb(212, 150, 108);
+    font-size: smaller;
+  }
+  #list-container{
+    display: inline-flex;
+    flex-direction: row;
+    height:200px;
+    overflow-y: scroll;
+    overflow-wrap: nowrap;
+    padding-right: 20px;
+    margin: 10px;
+  }
+  #list{
+    display:inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-right:20px;
+  }
+ 
+  #list2{
+    display:inline-flex;
+    flex-direction: column;
+  }
+  #main-container::-webkit-scrollbar{
+    display: none;
+  }
+#list-container::-webkit-scrollbar {
+  display: auto;
+  width: 20px;
+}
+#list-container::-webkit-scrollbar-track {
+  background-color: rgba(211, 206, 206, 0.0);
+}
+#list-container::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: rgba(112, 103, 103, 0.8);
+}
+#list-container::-webkit-scrollbar-track-piece {
+  width:20px;
+}
+#reset{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+  font-size: 15px;
+  height:25px;
+}
+button:hover{
+  cursor: pointer;
+}
