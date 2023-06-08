@@ -142,7 +142,7 @@ function saveExpense(event) {
 function fillExpenses(){
   list.innerHTML = ``;
   listTwo.innerHTML = ''
-  list.style.left = '0';
+  list.style.left = '10px';
   let expenses = JSON.parse(localStorage.getItem('expenses'))
   let expenseNames = JSON.parse(localStorage.getItem('expense-names'))
 
