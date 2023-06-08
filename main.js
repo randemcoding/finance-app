@@ -236,3 +236,4 @@ function clearExpenseLocalStorage() {
 
 const reset = document.getElementById('reset')
 reset.addEventListener('click', clearExpenseLocalStorage)
+reset.addEventListener('click', incomeLoad);
