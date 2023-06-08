@@ -144,6 +144,8 @@ body{
     overflow-wrap: nowrap;
     padding-right: 20px;
     margin: 10px;
+    position: relative;
+    left:20px;
   }
   #list{
     display:inline-flex;
